@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1666171506 source:c:\users\ammar\desktop\programming workshop\main.cpp
+	<iostream>
+	<string>
+	<mysql.h>
+	<mysqld_error.h>
+
+1666168934 source:c:\users\ammar\desktop\programming workshop\student.cpp
+	<string>
+	<iostream>
+	<string>
+	<mysql.h>
+	<mysqld_error.h>
+	"Student.h"
+
+1666168934 c:\users\ammar\desktop\programming workshop\student.h
+	<string>
+	<iostream>
+	<string>
+	<mysql.h>
+	<mysqld_error.h>
+

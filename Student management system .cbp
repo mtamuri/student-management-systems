@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Student management system" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Student management system " prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory='&quot;C:/Program Files/MySQL/MySQL Server 8.0/include&quot;' />
+			<Add directory='&quot;C:/Program Files/MySQL/MySQL Server 8.0/include/mysql&quot;' />
+		</Compiler>
+		<Linker>
+			<Add library="mysql" />
+			<Add directory='&quot;C:/Program Files/MySQL/MySQL Server 8.0/lib&quot;' />
+		</Linker>
+		<Unit filename="Exam.cpp" />
+		<Unit filename="Exam.h" />
+		<Unit filename="Student.cpp" />
+		<Unit filename="Student.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
